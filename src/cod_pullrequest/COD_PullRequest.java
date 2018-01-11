@@ -8,6 +8,13 @@ public class COD_PullRequest {
         String saludo = JOptionPane.showInputDialog(null, 
             "Hoooola!! Que tal??", 
             JOptionPane.QUESTION_MESSAGE);
+        
+        if (saludo.equals("Bien")){
+            JOptionPane.showInputDialog(null, "¡Me alegro mucho de que estés bien!");
+        } else {
+            JOptionPane.showInputDialog(null, "¡Oh! Qué dramón");
+        }
+        
     }
     
 }
